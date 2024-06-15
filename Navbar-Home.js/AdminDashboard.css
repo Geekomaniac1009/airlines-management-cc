@@ -1,0 +1,87 @@
+/* Reset default margins and paddings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+}
+
+.admin-dashboard-container {
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #2c3e50 0%, #3498db 100%);
+    padding: 20px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 10px 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.navbar span {
+    font-weight: bold;
+}
+
+.navbar .home-button {
+    background-color: #d9534f;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.navbar .home-button:hover {
+    background-color: #c9302c;
+}
+
+.admin-dashboard {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+.flight-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.dashboard-input, .dashboard-select {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.createFlight {
+    padding: 10px;
+    background-color: #182848;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.createFlight:hover {
+    background-color: #4b6cb7;
+}
+
+.error {
+    color: red;
+    font-size: 14px;
+    text-align: center;
+}

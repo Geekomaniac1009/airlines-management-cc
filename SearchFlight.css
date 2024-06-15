@@ -1,0 +1,49 @@
+/* Container for the entire search form */
+.search-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  text-align: left;
+  width: 80%;
+  gap: 10px;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.655);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  margin: 20px auto; /* Center align the container */
+  border-radius: 5px;
+}
+
+/* Each search box (label and input/select pair) */
+.search-box {
+  display: flex;
+  flex-direction: column;
+  flex: 1; /* Allow boxes to grow and take equal space */
+  min-width: 150px; /* Minimum width for the boxes */
+}
+
+/* Styling for the labels */
+.search-box label {
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+/* Styling for the inputs and select fields */
+.search-box input, .search-box select {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+/* Button styling */
+.search-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  margin-top: 24px; /* Ensure it aligns with input fields */
+  align-self: flex-start; /* Align the button to the left */
+}

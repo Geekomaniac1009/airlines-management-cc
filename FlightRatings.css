@@ -1,0 +1,55 @@
+.my-ratings {
+    padding: 20px;
+}
+
+.rating-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.rating-item {
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.label {
+    font-weight: bold;
+}
+
+.token {
+    padding: 5px;
+    border-radius: 3px;
+    display: inline-block;
+}
+
+.star-rating {
+    display: flex;
+    gap: 5px;
+}
+
+.delete-rating-btn {
+    position: relative;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: rgba(67, 9, 9, 0.879);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    align-self: flex-end;
+}
+
+.star {
+    cursor: pointer;
+    font-size: 1.5em;
+    color: #ccc;
+}
+
+.star.filled {
+    color: #f39c12;
+}

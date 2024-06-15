@@ -1,0 +1,82 @@
+.flight-results {
+    padding: 20px;
+    background-color: #d3e112d0;
+    height: 100vh;
+  }
+  
+  .flight-results h2 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .flight-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    position: relative;
+  }
+  
+  .flight-header {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .flight-header .rating {
+    position: absolute;
+    top: 40px;
+    right: 10px;
+  }
+  
+  .flight-header .duration {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: #5e267e;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+  }
+  
+  .flight-item p {
+    margin: 5px 0;
+  }
+  
+  .flight-item .availability.low {
+    color: #ff5722;
+  }
+  
+  .flight-item .availability.high {
+    color: #4caf50;
+  }
+  
+  .book-flight-btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #48cf4c;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    align-self: flex-end;
+  }
+  
+  .star {
+    color: white;
+    font-size: 20px;
+  }
+  
+  .star.filled {
+    color: gold;
+  }
+  

@@ -1,0 +1,81 @@
+.booking-history-container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+}
+
+.booking-history-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.booking-list {
+    list-style: none;
+    padding: 0;
+}
+
+.booking-item {
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.booking-info {
+    margin: 5px 0;
+}
+
+.label {
+    font-weight: bold;
+}
+
+.token {
+    font-weight: normal;
+}
+
+.button-container {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.view-ticket-btn,
+.add-review-btn,
+.cancel-booking-btn,
+.submit-rating-btn,
+.cancel-review-btn {
+    padding: 10px 20px;
+    margin-left: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.view-ticket-btn {
+    background-color: #007bff;
+    color: #fff;
+}
+
+.add-review-btn {
+    background-color: #28a745;
+    color: #fff;
+}
+
+.cancel-booking-btn {
+    background-color: #dc3545;
+    color: #fff;
+}
+
+.submit-rating-btn {
+    background-color: #007bff;
+    color: #fff;
+}
+
+.cancel-review-btn {
+    background-color: #dc3545;
+    color: #fff;
+}
+
+.no-booking-msg {
+    font-style: italic;
+}

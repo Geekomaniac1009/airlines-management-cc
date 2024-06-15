@@ -1,0 +1,68 @@
+.profile-body{
+    background-image: url('profile.jpeg');
+}
+
+.profile-container {
+    padding: 20px;
+    max-width: 1200px;
+    margin: auto;
+    position: absolute;
+    height: 1000vh;
+    text-align: left; /* Align elements to the left */
+}
+
+.profile-details {
+    background-color: #f9f9f9;
+    padding: 30px; /* Increase padding for better spacing */
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Increase box shadow for depth */
+}
+
+.profile-details p {
+    margin-bottom: 15px; /* Add bottom margin for better separation */
+}
+
+.add-balance-btn {
+    display: inline-block; /* Display the button inline with other elements */
+    padding: 15px 30px; /* Increase padding for better button size */
+    background-color: #007bff; /* Blue color */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s; /* Add transition for hover effect */
+}
+
+input[type="password"] {
+    width: 100%;
+    padding: 12px 20px; /* Adjust padding for better spacing */
+    margin: 8px 0; /* Add margin for separation */
+    box-sizing: border-box; /* Ensure box-sizing includes padding */
+    border: 2px solid #ccc; /* Add a border with light gray color */
+    border-radius: 5px; /* Add border-radius for rounded corners */
+    transition: border-color 0.3s; /* Add transition for border color */
+}
+
+input[type="password"]:focus {
+    border-color: #007bff; /* Change border color on focus */
+    outline: none; /* Remove default focus outline */
+}
+
+.change-password-btn {
+    display: inline-block; /* Display the button inline with other elements */
+    padding: 10px 20px; /* Increase padding for better button size */
+    background-color: maroon; /* Blue color */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s; /* Add transition for hover effect */
+}
+
+.change-password-btn:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+.add-balance-btn:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
