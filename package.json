@@ -2,7 +2,7 @@
   "name": "airlines-management",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://airlines-management-cc.onrender.com/",
+  "homepage": "https://airlines-management-cc.netlify.app/",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.5.2",
     "@fortawesome/free-brands-svg-icons": "^6.5.2",
