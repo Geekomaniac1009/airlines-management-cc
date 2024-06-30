@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: airlines-management-cc
+    env: static
+    buildCommand: npm install && npm run build
+    staticPublishPath: build
