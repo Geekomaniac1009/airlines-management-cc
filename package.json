@@ -29,9 +29,6 @@
     "slick-carousel": "^1.8.1",
     "web-vitals": "^2.1.4"
   },
-  "devDependencies": {
-    "@babel/plugin-proposal-private-property-in-object": "^7.16.7"
-  },
   "scripts": {
     "start": "node index.js && react-scripts start",
     "build": "npm install && react-scripts build",
