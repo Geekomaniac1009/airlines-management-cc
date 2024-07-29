@@ -5,14 +5,6 @@ const bodyParser = require('body-parser');
 const mongoose = require('mongoose');
 const { User, UserRating, Flight, Booking, Admin } = require('./database');
 
-// Serve static files from the React app
-app.use(express.static(path.join(__dirname, 'build')));
-
-// Serve the index.html for all unknown routes
-app.get('*', (req, res) => {
-  res.sendFile(path.join(__dirname, 'build', 'index.html'));
-});
-
 // Backend operations are performed at localhost::5000
 const app = express();
 const PORT = 5000;
