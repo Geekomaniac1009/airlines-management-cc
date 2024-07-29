@@ -4,7 +4,6 @@ Fly-Air is a flight booking application where users can search for available fli
 
 ## Table of Contents
 <li> Features </li>
-<li> Live Demo </li>
 <li> Technologies Used </li>
 <li> Getting Started  </li>
 <li> Prerequisites </li>
@@ -18,9 +17,6 @@ Fly-Air is a flight booking application where users can search for available fli
 <li> View flight details </li>
 <li> Book flights </li>
 <li> Responsive design </li>
-
-### Live Demo
-Check out the live demo of the application deployed on Render: Fly-Air Live Demo
 
 ### Technologies Used
 <li> Frontend: React, CSS </li>
