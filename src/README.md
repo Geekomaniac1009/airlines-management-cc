@@ -36,32 +36,28 @@ npm (Node Package Manager)\
 MongoDB (or a MongoDB Atlas account)\
 
 ### Installation
-Clone the repository
+Clone the repository/
 
-sh
-Copy code
-git clone https://github.com/your-username/fly-air.git
-cd fly-air
-Install backend dependencies
+git clone https://github.com/your-username/fly-air.git/
+cd fly-air/
 
-sh
+Install backend dependencies/
 
-cd backend
-npm install
-Install frontend dependencies
+cd backend/
+npm install/
 
-sh
-Copy code
-cd ../frontend
-npm install
-Set up environment variables
+Install frontend dependencies/
 
-Create a .env file in the backend directory with the following content:
-sh
-Copy code
-PORT=5000
-MONGO_URI=your_mongodb_connection_string
-JWT_SECRET=your_jwt_secret
+cd ../frontend/
+npm install/
+
+Set up environment variables/
+
+Create a .env file in the backend directory with the following content:/
+
+PORT=5000/
+MONGO_URI=your_mongodb_connection_string/
+JWT_SECRET=your_jwt_secret/
 Replace your_mongodb_connection_string and your_jwt_secret with your actual MongoDB connection string and a secret key for JWT.
 
 ### Usage
