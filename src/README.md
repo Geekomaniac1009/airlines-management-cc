@@ -44,11 +44,10 @@ cd fly-air\
 Install backend dependencies
 
 cd backend\
-npm install\
+npm install
 
 Install frontend dependencies
-
-npm install\
+npm install
 
 Set up environment variables
 
