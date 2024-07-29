@@ -38,8 +38,8 @@ MongoDB (or a MongoDB Atlas account)\
 ### Installation
 Clone the repository
 
-git clone https://github.com/your-username/fly-air.git\
-cd fly-air\
+git clone https://github.com/your-username/fly-air.git
+cd fly-air
 
 Install backend dependencies
 
