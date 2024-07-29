@@ -79,6 +79,8 @@ const Profile = () => {
             <h2>My Profile</h2>
             <br />
             <br />
+    
+       
             <div className="profile-details">
                 <p><strong>Username:</strong> {profile.username}</p>
                 <p><strong>Email:</strong> {profile.email}</p>
@@ -99,8 +101,12 @@ const Profile = () => {
                 {updateMessage && <p className="update-message">{updateMessage}</p>}
                 <br />
                 <br />
-                <p><strong>Balance Left:</strong> ${profile.balance}</p>
-                <button onClick={addBalance} className="add-balance-btn">Reset Balance </button>
+                <div className="right-segment">
+                    <p>Change Fee</p>
+                    <p className="message">Run out of balance? Refuel your dreams.</p>
+                    <button onClick={addBalance} className="add-balance-btn">Reset Balance </button>
+                </div>
+                
             </div>
         </div>
         </div>
