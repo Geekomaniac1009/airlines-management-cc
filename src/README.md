@@ -2,15 +2,15 @@
  
 Fly-Air is a flight booking application where users can search for available flights based on their travel preferences, view flight details, and book flights. The application is built with React for the frontend and Node.js for the backend. It uses a REST API to fetch flight data and handle bookings.
 
-Table of Contents
-Features
-Live Demo
-Technologies Used
-Getting Started
-Prerequisites
-Installation
-Contributing
-License
+## Table of Contents
+<li> Features </li>
+<li> Live Demo </li>
+<li> Technologies Used </li>
+<li> Getting Started  </li>
+<li> Prerequisites </li>
+<li> Installation </li>
+<li> Contributing  </li>
+<li> License </li>
 
 ### Features
 <li> User authentication (login and signup) </li>
@@ -30,11 +30,12 @@ Check out the live demo of the application deployed on Render: Fly-Air Live Demo
 ### Getting Started
 Follow these steps to set up the project locally.
 
-Prerequisites
-Node.js
-npm (Node Package Manager)
-MongoDB (or a MongoDB Atlas account)
-Installation
+Prerequisites\
+Node.js\
+npm (Node Package Manager)\
+MongoDB (or a MongoDB Atlas account)\
+
+### Installation
 Clone the repository
 
 sh
