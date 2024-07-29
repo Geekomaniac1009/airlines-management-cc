@@ -4,6 +4,8 @@ import StarRating from './StarRating';
 import './BookingHistory.css'
 
 const BookingHistory = () => {
+
+
 const [bookings, setBookings] = useState([]);
 const username = localStorage.getItem('username');
 const [selectedBooking, setSelectedBooking] = useState(null);
@@ -14,6 +16,7 @@ useEffect(() => {
     fetchBookings();
 }, [username]);
 
+// fetch booking history of user
 const fetchBookings = async () => {
     try {
         const response = await fetch(`http://localhost:5000/api/bookings/${username}`);
@@ -24,6 +27,7 @@ const fetchBookings = async () => {
     }
 };
 
+// if not rated yet, add a rating to the booked flight
 const addRating = async (flightId) => {
     console.log(flightId);
     try {
@@ -59,6 +63,7 @@ const cancelBooking = async (bookingId) => {
     const currentDate = new Date();
     const flightDate = new Date(booking.flight.date);
 
+    // if currentDate > flightDate, cancellation is not possible 
     if (flightDate < currentDate) {
         alert('Flight date has already passed, cancellation not possible');
         return;
@@ -84,6 +89,7 @@ const cancelBooking = async (bookingId) => {
     }
 };
 
+// navigate to view ticket corresponding to booked flight
 const viewTicket = (PNR) => {
     localStorage.setItem('pnr', PNR);
     navigate('/ticket');
