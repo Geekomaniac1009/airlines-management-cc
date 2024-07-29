@@ -1,6 +1,6 @@
 # cc-airlines-management
  
-Fly-Air is a flight booking application where users can search for available flights based on their travel preferences, view flight details, and book flights. The application is built with React for the frontend and Node.js for the backend. It uses a RESTful API to fetch flight data and handle bookings.
+Fly-Air is a flight booking application where users can search for available flights based on their travel preferences, view flight details, and book flights. The application is built with React for the frontend and Node.js for the backend. It uses a REST API to fetch flight data and handle bookings.
 
 Table of Contents
 Features
@@ -85,8 +85,8 @@ http://localhost:3000
 ### Contributing
 Contributions are welcome! Please follow these steps to contribute:
 
-Fork the repository \n
-Create a new branch (git checkout -b feature/your-feature-name) \n
+Fork the repository\
+Create a new branch (git checkout -b feature/your-feature-name)\
 Make your changes \n
 Commit your changes (git commit -m 'Add some feature') \n
 Push to the branch (git push origin feature/your-feature-name) \n
