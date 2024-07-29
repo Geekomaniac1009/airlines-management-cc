@@ -18,11 +18,9 @@ License
 <li> View flight details </li>
 <li> Book flights </li>
 <li> Responsive design </li>
-Live Demo
+
+### Live Demo
 Check out the live demo of the application deployed on Render: Fly-Air Live Demo
-
-
-
 
 ### Technologies Used
 <li> Frontend: React, CSS </li>
@@ -87,11 +85,11 @@ http://localhost:3000
 ### Contributing
 Contributions are welcome! Please follow these steps to contribute:
 
-Fork the repository
-Create a new branch (git checkout -b feature/your-feature-name)
-Make your changes
-Commit your changes (git commit -m 'Add some feature')
-Push to the branch (git push origin feature/your-feature-name)
-Open a pull request
-License
+Fork the repository \n
+Create a new branch (git checkout -b feature/your-feature-name) \n
+Make your changes \n
+Commit your changes (git commit -m 'Add some feature') \n
+Push to the branch (git push origin feature/your-feature-name) \n
+Open a pull request \n
+### License
 This project is licensed under the MIT License. See the LICENSE file for details.
