@@ -5,28 +5,34 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #121212;
+    color: #E0E0E0;
+}
+
 .admin-login-container {
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
     width: 100%;
     height: 100vh;
-    background: linear-gradient(135deg, #4b6cb7 0%, #182848 100%);
+    background: linear-gradient(135deg, #000000 0%, #434343 100%);
 }
 
 .admin-login {
-    background-color: rgba(255, 255, 255, 0.9);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     padding: 40px;
-    border-radius: 10px;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
-    width: 300px;
+    width: 400px;
+    background-color: rgba(33, 33, 33, 0.95);
+    box-shadow: 5px 0 15px rgba(0, 0, 0, 0.5);
 }
 
 .admin-login-title {
     text-align: center;
     margin-bottom: 20px;
-    color: #182848;
+    font-size: 24px;
+    color: #E0E0E0;
 }
 
 .admin-login-form {
@@ -37,32 +43,56 @@
 .admin-login-label {
     margin-bottom: 10px;
     font-weight: bold;
+    color: #B0B0B0;
 }
 
 .admin-login-input {
-    padding: 10px;
+    padding: 15px;
     margin-bottom: 20px;
-    border: 1px solid #ccc;
+    border: 1px solid #333;
     border-radius: 5px;
     font-size: 16px;
+    background-color: #1e1e1e;
+    color: #E0E0E0;
+}
+
+.admin-login-input::placeholder {
+    color: #777;
 }
 
 .admin-login-button {
-    padding: 10px;
-    background-color: #182848;
+    padding: 15px;
+    background-color: #1DB954;
     color: white;
     border: none;
     border-radius: 5px;
     font-size: 16px;
     cursor: pointer;
+    transition: background-color 0.3s ease;
 }
 
 .admin-login-button:hover {
-    background-color: #4b6cb7;
+    background-color: #1ed760;
 }
 
 .admin-login-error {
-    color: red;
+    color: #FF5252;
     font-size: 14px;
     text-align: center;
+}
+
+/* Additional styling for a modern look */
+.admin-login-container::before {
+    content: '';
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(10px);
+    z-index: 1;
+}
+
+.admin-login {
+    position: relative;
+    z-index: 2;
 }
