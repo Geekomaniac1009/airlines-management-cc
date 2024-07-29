@@ -33,7 +33,8 @@
 
 .content-wrapper {
   display: flex;
-  justify-content: flex-end;
+  align-items: flex-start; /* Align items towards the start of the flex container */
+  justify-content: flex-start; /* Justify items towards the start of the flex container */
   width: 100%;
   max-width: 1200px;
   margin: 20px auto;
